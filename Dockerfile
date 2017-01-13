@@ -10,7 +10,8 @@ RUN apt-get update && apt-get install -y \
 	libz-dev \ 
 	libmemcached-dev \ 
 	xz-utils \
-  php7.0-memcached
+  php7.0-memcached \
+  php7.0-bz2
 #RUN pecl install memcached
 #RUN echo extension=memcached.so >> /usr/local/etc/php/conf.d/memcached.ini
 #RUN apt-get install php-memcached
